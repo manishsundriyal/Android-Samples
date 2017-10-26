@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ModularUI</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="titles">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>Intent Filters</item>
+        <item>Content Providers</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Activities : svsdvzcvjnccccccccccccccccccccccccccccclkmsdc</item>
+        <item>Services : ascbldsvndkfdvnvlsdjflksdjvlkfv, dxkjbenflkdjvn </item>
+        <item>Intent Filters : asdconlwisvdnlaidfnvlkjdfnvkljdfnvldfnvilefndvdlfksxv kdnxv</item>
+        <item>Content Providers : dslvbcISVNSLKJV DCX  IFDNVPIndnbldknblkfgcnbilngfb</item>
+    </string-array>
+</resources>

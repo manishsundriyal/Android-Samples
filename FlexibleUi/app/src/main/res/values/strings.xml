@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FlexibleUi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="chapters">
+        <item>Activites</item>
+        <item>Content Managers</item>
+        <item>Intents and intent filters</item>
+        <item>Services</item>
+
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Activites</item>
+        <item>Content Managers</item>
+        <item>Intents and intent filters</item>
+        <item>Services</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".choose"
+            android:label="@string/title_activity_choose"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.stream"
+            android:label="@string/title_activity_stream"
+            android:parentActivityName=".choose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Career_list"
+            android:label="@string/title_activity_career_list"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Detail"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".Sci.Career_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Business"
+            android:label="@string/title_activity_business"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Scientific"
+            android:label="@string/title_activity_scientific"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Aesthetic"
+            android:label="@string/title_activity_aesthetic"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Social"
+            android:label="@string/title_activity_social"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Clerical"
+            android:label="@string/title_activity_clerical"
+            android:parentActivityName=".Sci.stream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Com.Commerce"
+            android:label="@string/title_activity_commerce"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Com.Commerce_details"
+            android:label="@string/title_activity_commerce"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hum.Humanities"
+            android:label="@string/title_activity_humanities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hum.Humanity_details"
+            android:label="@string/title_activity_humanities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Businerss_detail"
+            android:label="business details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Scientific_details"
+            android:label="scientific details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Aesthetic_details"
+            android:label="Aesthetic details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Social_details"
+            android:label="scientific details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sci.Clerical_details"
+            android:label="Clerical details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".graduation"
+            android:label="@string/title_activity_graduation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_art"
+            android:label="@string/title_activity_grad_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_maths"
+            android:label="@string/title_activity_grad_maths"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_com"
+            android:label="@string/title_activity_grad_com"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_bio"
+            android:label="@string/title_activity_grad_bio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".graduation_detail"
+            android:label="@string/title_activity_graduation_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_desc2"
+            android:label="@string/title_activity_grad_desc2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_detail3"
+            android:label="@string/title_activity_grad_detail3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grad_det4"
+            android:label="@string/title_activity_grad_det4"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

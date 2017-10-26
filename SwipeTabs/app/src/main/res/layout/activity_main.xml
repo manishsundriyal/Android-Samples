@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager
+    android:id="@+id/pager"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.PagerTitleStrip
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/titles"
+        android:background="#33B5E5"
+
+        android:layout_gravity="top"
+        >
+
+    </android.support.v4.view.PagerTitleStrip>
+
+
+</android.support.v4.view.ViewPager>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ThreadAndStuff</string>
+    <string-array name="urls">
+        <item>Url 1</item>
+        <item>Url 2</item>
+        <item>Url 3</item>
+        <item>Url 4</item>
+    </string-array>
+
+    <string-array name="imageUrls">
+        <item>http://www.dumpaday.com/wp-content/uploads/2017/01/random-pictures-74.jpg</item>
+        <item>http://www.dumpaday.com/wp-content/uploads/2017/01/random-pictures-4.jpg</item>
+        <item>http://cdn1-www.cattime.com/assets/uploads/gallery/persian-cats-and-kittens/persian-cats-and-kittens-1.jpg<item>
+        </item>http://redlinebicycles.com/wp-content/uploads/2013/10/Random-black-F.jpg</item>
+    </string-array>
+
+
+</resources>

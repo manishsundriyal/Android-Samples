@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    >
+
+    <ImageView
+
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tech"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:id="@+id/salar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:src="@drawable/salary"/>
+    <TextView
+        android:id="@+id/sall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Salary : "
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/salar"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignTop="@+id/salar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/sall"
+        android:id="@+id/salarytext"
+        android:layout_alignLeft="@+id/sall"
+        android:textSize="17sp"
+        android:textColor="#000"
+
+        android:text="aaaaa"/>
+
+    <ImageView
+        android:id="@+id/imgmand"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/salarytext"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/books"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignLeft="@+id/imageView4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/salarytext"
+        android:text="Mandatory Subjects : "
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/sall"
+        android:gravity="center"
+        android:id="@+id/textView11"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:id="@+id/mand"
+        android:text="aaaaaaa"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mand"
+        android:background="#000"
+        android:layout_marginTop="9dp"
+        android:id="@+id/line"
+        ></View>
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:layout_alignLeft="@+id/mand"
+        android:id="@+id/description"
+        android:text=""
+        android:textSize="17sp"
+        android:layout_marginTop="11dp"
+        />
+
+</RelativeLayout>
+    </ScrollView>

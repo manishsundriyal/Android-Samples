@@ -1,0 +1,25 @@
+package com.example.harsh.gridview;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class DialogActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dialog);
+        Intent intent=getIntent();
+        if(intent!=null){
+            intent.getStringExtra("countryName");
+            intent.getStringExtra("countryImage");
+        }
+    }
+
+    public void closeDialog(View view){
+        finish();
+    }
+}

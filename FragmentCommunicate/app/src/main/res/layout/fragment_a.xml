@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFBB00"
+    android:layout_margin="16dp"
+    tools:context="com.example.harsh.fragmentcommunicate.FragmentA">
+
+    <!-- TODO: Update blank fragment layout -->
+   <Button
+       android:layout_width="195dp"
+       android:id="@+id/button"
+       android:layout_height="134dp"
+       android:layout_margin="16dp"
+       android:text="Click Me"/>
+
+</FrameLayout>

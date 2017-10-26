@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+
+
+
+    tools:context="com.example.acer.myapplication.choose"
+    tools:showIn="@layout/activity_choose"
+    >
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/sake"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="1000dp"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/ee"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="#22ff9e80">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/radioGroup"
+        android:padding="10dp"
+        >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:id="@+id/radioButton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:textStyle="bold"
+
+
+
+        />
+
+
+
+
+
+
+        <RadioButton
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commerce"
+            android:id="@+id/radioButton2"
+
+            android:typeface="serif"
+            android:layout_alignTop="@+id/radioGroup"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button"
+
+
+            android:textStyle="bold"/>
+
+        <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Humanities"
+
+
+        android:lines="1"
+        android:typeface="serif"
+            android:textStyle="bold"
+
+
+        android:id="@+id/radioButton3"
+            android:textSize="17sp"
+            android:layout_alignTop="@+id/radioButton2"
+            android:layout_toRightOf="@+id/radioButton2"
+            android:layout_toEndOf="@+id/radioButton2" />
+    </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ap"
+            android:background="#FFA500"
+            android:textColor="#fff"
+            android:id="@+id/button"
+            android:onClick="onRadioButtonClicked"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/radioGroup"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:src="@drawable/sys"
+            android:layout_marginTop="230dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+

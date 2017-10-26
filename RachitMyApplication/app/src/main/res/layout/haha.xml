@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#fff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:padding="18dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    >
+
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/science"
+        android:background="#fff"
+
+        android:id="@+id/imageView3" />
+
+
+
+    <ImageButton
+        android:background="#fff"
+        android:onClick="click_me"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/huhu"
+
+        android:id="@+id/mechanical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mechanicaltext"
+        android:layout_below="@+id/mechanical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Mechanical"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:onClick="click_me1"
+        android:src="@drawable/savg1"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/mechanical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/business"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/businesstext"
+        android:gravity="center"
+        android:layout_alignTop="@+id/mechanicaltext"
+        android:layout_alignLeft="@+id/business"
+        android:layout_alignStart="@+id/business"
+        android:layout_below="@+id/business"
+        android:layout_marginTop="5dp"
+        android:text="Business"
+        android:textColor="#000"/>
+    <ImageButton
+        android:onClick="click_me2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/savg2"
+        android:background="#fff"
+        android:layout_below="@+id/mechanicaltext"
+        android:layout_alignLeft="@+id/mechanical"
+        android:layout_marginTop="25dp"
+        android:id="@+id/scientific"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scientifictext"
+        android:layout_below="@+id/scientific"
+        android:layout_alignLeft="@id/mechanical"
+        android:layout_marginTop="5dp"
+        android:text="Scientific"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <ImageButton
+        android:onClick="click_me3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:id="@+id/aesthetic"
+        android:layout_below="@id/businesstext"
+        android:layout_alignLeft="@+id/businesstext"
+        android:layout_alignTop="@+id/scientific"
+        android:src="@drawable/savg3"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aesthetic"
+        android:layout_alignLeft="@+id/businesstext"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:id="@+id/aesthetictext"
+        android:text="Aesthetic"
+        android:textColor="#000"/>
+    <ImageButton
+        android:onClick="click_me4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/scientifictext"
+        android:background="#fff"
+        android:layout_alignLeft="@+id/scientific"
+        android:src="@drawable/savg4"
+        android:layout_marginTop="25dp"
+        android:id="@+id/social"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Social"
+        android:id="@+id/socialtext"
+        android:gravity="center"
+        android:layout_below="@+id/social"
+        android:layout_alignLeft="@+id/social"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+
+    <ImageButton
+        android:onClick="click_me5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/aesthetictext"
+        android:layout_marginTop="25dp"
+        android:background="#fff"
+        android:layout_alignLeft="@+id/aesthetic"
+        android:src="@drawable/savg5"
+        android:id="@+id/clerical"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/clericaltext"
+        android:text="Clerical"
+        android:gravity="center"
+        android:layout_below="@+id/clerical"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/clerical"
+        android:textColor="#000"/>
+
+
+
+
+</RelativeLayout>
+    </ScrollView>
+
+
+
+
+    </RelativeLayout>

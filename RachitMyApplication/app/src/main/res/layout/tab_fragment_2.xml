@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_marginTop="0dp"
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:id="@+id/career"
+        android:src="@drawable/aa"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/vieww1"
+        android:layout_alignEnd="@+id/vieww1"
+        android:background="#fff"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/your_string_here"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/career"
+        android:textStyle="bold"
+
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#100f0f"
+
+
+        android:id="@+id/vieww1"
+        android:layout_below="@+id/textView3"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/vieww1"
+        android:id="@+id/listview2"
+        android:layout_marginTop="5dp"
+        ></ListView>
+</RelativeLayout>
+

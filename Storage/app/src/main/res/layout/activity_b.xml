@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="enter data"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/internalCache"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="loadInternalCache"
+        android:text="Load from Internal Cache" />
+    <Button
+        android:id="@+id/externalCache"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="loadExternalCache"
+        android:text="Load from External Cache" />
+    <Button
+        android:id="@+id/externalPrivate"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="loadExternalPrivate"
+        android:text="Load from External Private" />
+    <Button
+        android:id="@+id/externalPublic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="loadExternalPublic"
+        android:text="Load from External Public" />
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:onClick="previous"
+        android:text="previous" />
+</LinearLayout>

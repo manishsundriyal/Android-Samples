@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="your_string_here">Helpful Stuff</string>
+    <string name="your_string_here1">Guide After</string>
+    <string name="title_activity_choose">choose</string>
+    <string name="ap">Continue</string>
+    <string name="title_activity_stream">stream</string>
+    <string name="title_activity_career_list">Career_list</string>
+    <string-array name="list">
+        <item>Aeronautical Engineer</item>
+        <item>Aerospace Engineer</item>
+        <item>Agricultural Engineer</item>
+        <item>Air Traffic Control Officer</item>
+        <item>Aircraft Maintenance Engineer</item>
+        <item>Architect</item>
+        <item>Audio Recording Engineers</item>
+        <item>Biomedical Engineer</item>
+        <item>Broadcast Engineer</item>
+        <item>Chemical Engineer</item>
+        <item>Dentist</item>
+        <item>Electrical Engineer</item>
+        <item>Electronic Engineer</item>
+        <item>Engineer</item>
+        <item>Engineering Technician</item>
+        <item>Instrumentation Engineer</item>
+        <item>Marine Engineer</item>
+        <item>Merchant Navy Officer</item>
+        <item>Naval Officer</item>
+        <item>Petroleum Engineer</item>
+        <item>Pilot</item>
+        <item>Robotics Engineer</item>
+
+    </string-array>
+    <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_business">Business</string>
+    <string name="title_activity_scientific">Scientific</string>
+    <string name="title_activity_aesthetic">Aesthetic</string>
+    <string name="title_activity_social">Social</string>
+    <string name="title_activity_clerical">Clerical</string>
+    <string-array name="business">
+        <item>Mobile App Developer</item>
+        <item>Project Manager</item>
+        <item>Accountant</item>
+        <item>Chartered Accountant</item>
+        <item>Finance Manager</item>
+        <item>Baker</item>
+        <item>Banker</item>
+        <item>Consultant</item>
+        <item>Economist</item>
+        <item>Entrepreneur</item>
+    </string-array>
+    <string-array name="scientific">
+        <item>Astronomer</item>
+        <item>Biologist</item>
+        <item>Cardiologist</item>
+        <item>Computer Engineer</item>
+        <item>Database Administrator</item>
+        <item>Doctor</item>
+        <item>Ethical Hacker</item>
+        <item>Homeopath</item>
+        <item>Psychologist</item>
+    </string-array>
+    <string-array name="aesthetic">
+        <item>Architect</item>
+        <item>Cinematographer</item>
+        <item>Actor</item>
+        <item>Animation</item>
+        <item>Cartoonist</item>
+        <item>Choreographer</item>
+        <item>Fashion Designer</item>
+        <item>Film/ TV Director</item>
+        <item>Game Designer</item>
+        <item>Mobile App Designer</item>
+
+    </string-array>
+    <string-array name="social">
+        <item>Nurse</item>
+        <item>Journalist</item>
+        <item>Model</item>
+        <item>Police Officer</item>
+        <item> Teacher</item>
+    </string-array>
+    <string-array name="clerical">
+        <item>Botanists</item>
+
+        <item>Oceanographer</item>
+
+        <item>Copywriter</item>
+
+    </string-array>
+    <string-array name="Commerce">
+        <item>Company Secretary</item>
+        <item>Financial planners</item>
+        <item>Media planners</item>
+        <item>Big data Analyst</item>
+        <item>Charterted Accountant</item>
+
+    </string-array>
+    <string-array name="arts">
+        <item>Accessory Designer</item>
+        <item>Actor</item>
+        <item>Beautician</item>
+        <item>Cartoonist</item>
+
+    </string-array>
+
+
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_commerce">Commerce</string>
+    <string name="title_activity_humanities">Humanities</string>
+    <string name="title_activity_mechanical2">Mechanical2</string>
+    <string name="title_activity_mechanical3">Mechanical3</string>
+    <string name="title_activity_social2">Social2</string>
+    <string name="title_activity_clerical2">Clerical2</string>
+    <string name="title_activity_business2">Business2</string>
+    <string name="title_activity_aesthetic2">Aesthetic2</string>
+    <string name="title_activity_scientific2">Scientific2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="searchable">searchable</string>
+    <string name="title_activity_commerce_details">Commerce_details</string>
+    <string name="title_activity_graduation">graduation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_grad_art">grad_art</string>
+    <string name="title_activity_grad_maths">grad_maths</string>
+    <string name="title_activity_grad_com">grad_com</string>
+    <string name="title_activity_grad_bio">grad_bio</string>
+    <string name="title_activity_graduation_detail">graduation_detail</string>
+    <string name="title_activity_grad_desc2">grad_desc2</string>
+    <string name="title_activity_grad_detail3">grad_detail3</string>
+    <string name="title_activity_grad_det4">grad_det4</string>
+
+</resources>
